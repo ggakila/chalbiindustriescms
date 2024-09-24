@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "FAQ"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "iD": {
+      "type": "uid",
+      "required": true
+    },
+    "Question": {
+      "type": "string",
+      "required": true,
+      "maxLength": 300,
+      "unique": true
+    },
+    "Answer": {
+      "type": "text",
+      "required": true,
+      "minLength": 255
+    }
+  }
+}
