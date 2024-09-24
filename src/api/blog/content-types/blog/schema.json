@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog",
     "pluralName": "blogs",
-    "displayName": "Blogs"
+    "displayName": "Blogs",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -37,12 +38,12 @@
       "required": true
     },
     "Thumbnail": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Content": {
       "type": "text",
@@ -53,6 +54,10 @@
       "required": true,
       "unique": true,
       "maxLength": 255
+    },
+    "iD": {
+      "type": "uid",
+      "required": true
     }
   }
 }
