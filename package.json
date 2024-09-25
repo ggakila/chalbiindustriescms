@@ -1,8 +1,8 @@
 {
-  "name": "strapi-base",
+  "name": "chalbi-cms",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "A Strapi application running the Chalbi CMS",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -25,7 +25,7 @@
     "uuid": "bf01d085-d3ed-47bb-a43a-478cc4d8c439"
   },
   "engines": {
-    "node": ">=16.0.0 <=20.x.x",
+    "node": "18.17.0",
     "npm": ">=6.0.0"
   },
   "license": "MIT"

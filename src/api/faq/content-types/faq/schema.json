@@ -20,13 +20,12 @@
     },
     "Answer": {
       "type": "text",
-      "required": true,
-      "minLength": 255
+      "required": true
     },
     "iD": {
-      "type": "integer",
-      "required": true,
-      "unique": true
+      "type": "uid",
+      "unique": true,
+      "required": true
     }
   }
 }
