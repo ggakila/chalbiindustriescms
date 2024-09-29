@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_herodata_slides",
+  "info": {
+    "displayName": "slides"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

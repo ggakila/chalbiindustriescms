@@ -1,7 +1,8 @@
 {
   "collectionName": "components_aboutdata_whoarewes",
   "info": {
-    "displayName": "whoarewe"
+    "displayName": "whoarewe",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,9 @@
     },
     "description": {
       "type": "text"
+    },
+    "Title": {
+      "type": "string"
     }
   }
 }

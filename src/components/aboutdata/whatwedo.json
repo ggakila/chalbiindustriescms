@@ -1,12 +1,16 @@
 {
   "collectionName": "components_aboutdata_whatwedos",
   "info": {
-    "displayName": "whatwedo"
+    "displayName": "whatwedo",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "description": {
       "type": "text"
+    },
+    "Title": {
+      "type": "string"
     }
   }
 }
