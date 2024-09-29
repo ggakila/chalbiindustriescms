@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_aboutdata_valuepropositions",
+  "info": {
+    "displayName": "valueproposition"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_aboutdata_whyshouldyouchooseuses",
+  "info": {
+    "displayName": "whyshouldyouchooseus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "defencecapability": {
+      "type": "component",
+      "repeatable": false,
+      "component": "defencecapability.defencecapability"
+    },
+    "commercialcapability": {
+      "type": "component",
+      "repeatable": false,
+      "component": "commercialcapability.commercialcapability"
+    },
+    "ourexpertise": {
+      "type": "component",
+      "repeatable": false,
+      "component": "aboutdata.ourexpertise"
+    },
+    "ourpersonnel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "aboutdata.ourpersonnel"
+    }
+  }
+}

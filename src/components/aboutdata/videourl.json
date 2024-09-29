@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_aboutdata_videourls",
+  "info": {
+    "displayName": "videourl"
+  },
+  "options": {},
+  "attributes": {
+    "videourl": {
+      "type": "text"
+    }
+  }
+}

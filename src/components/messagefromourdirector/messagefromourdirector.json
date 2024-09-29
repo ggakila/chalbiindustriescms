@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_messagefromourdirector_messagefromourdirectors",
+  "info": {
+    "displayName": "messagefromourdirector"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "names": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}

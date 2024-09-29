@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_commercialcapability_commercialcapabilities",
+  "info": {
+    "displayName": "commercialcapability"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

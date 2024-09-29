@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_aboutdata_whatwedos",
+  "info": {
+    "displayName": "whatwedo"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    }
+  }
+}

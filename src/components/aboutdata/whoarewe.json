@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_aboutdata_whoarewes",
+  "info": {
+    "displayName": "whoarewe"
+  },
+  "options": {},
+  "attributes": {
+    "overview": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
