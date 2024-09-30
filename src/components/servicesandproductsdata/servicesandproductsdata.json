@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_servicesandproductsdata_servicesandproductsdata",
+  "info": {
+    "displayName": "servicesandproductsdata",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "iD": {
+      "type": "string"
+    },
+    "Thumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "href": {
+      "type": "string"
+    },
+    "altText": {
+      "type": "string"
+    },
+    "isDropdown": {
+      "type": "boolean"
+    }
+  }
+}

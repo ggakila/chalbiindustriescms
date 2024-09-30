@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsandmediadata",
+  "info": {
+    "singularName": "newsandmedia",
+    "pluralName": "newsandmediadata",
+    "displayName": "newsandmediadata"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "article",
+        "video"
+      ],
+      "required": true
+    },
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "mainnews",
+        "refinedpicks",
+        "featured"
+      ]
+    },
+    "Thumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

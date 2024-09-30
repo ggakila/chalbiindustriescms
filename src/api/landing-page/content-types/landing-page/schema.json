@@ -4,7 +4,8 @@
   "info": {
     "singularName": "landing-page",
     "pluralName": "landing-pages",
-    "displayName": "Landing Page"
+    "displayName": "Landing Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,26 @@
   "attributes": {
     "Title": {
       "type": "string"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    },
+    "ServicesAndProductsData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "servicesandproductsdata.servicesandproductsdata"
+    },
+    "video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "featured-video.featured-video"
+    },
+    "landingpagevideo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "aboutdata.videourl"
     }
   }
 }
