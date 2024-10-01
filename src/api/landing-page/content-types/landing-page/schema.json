@@ -25,11 +25,6 @@
       "repeatable": true,
       "component": "servicesandproductsdata.servicesandproductsdata"
     },
-    "video": {
-      "type": "component",
-      "repeatable": false,
-      "component": "featured-video.featured-video"
-    },
     "landingpagevideo": {
       "type": "component",
       "repeatable": false,

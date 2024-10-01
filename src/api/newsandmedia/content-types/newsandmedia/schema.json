@@ -4,7 +4,8 @@
   "info": {
     "singularName": "newsandmedia",
     "pluralName": "newsandmediadata",
-    "displayName": "newsandmediadata"
+    "displayName": "newsandmediadata",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -40,11 +41,15 @@
       ]
     },
     "Thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "imgUrl": {
+      "type": "text"
     }
   }
 }
