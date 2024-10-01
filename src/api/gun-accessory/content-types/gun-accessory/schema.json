@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gun_accessories",
+  "info": {
+    "singularName": "gun-accessory",
+    "pluralName": "gun-accessories",
+    "displayName": "gunAccessories"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "iD": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "specifications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "specifications.specifications"
+    }
+  }
+}

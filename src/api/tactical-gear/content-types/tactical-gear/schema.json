@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tactical-gear",
     "pluralName": "tactical-gears",
-    "displayName": "TacticalGear"
+    "displayName": "TacticalGear",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -37,16 +38,17 @@
       "maxLength": 255
     },
     "Thumbnail": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
-    "Specifications": {
-      "type": "json",
-      "required": true
+    "specifications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "specifications.specifications"
     }
   }
 }

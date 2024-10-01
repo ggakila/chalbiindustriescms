@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "engineering_solutions",
+  "info": {
+    "singularName": "engineering-solution",
+    "pluralName": "engineering-solutions",
+    "displayName": "engineeringSolutions"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Thumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}
