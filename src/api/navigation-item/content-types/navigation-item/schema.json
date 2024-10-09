@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navigation_items",
+  "info": {
+    "singularName": "navigation-item",
+    "pluralName": "navigation-items",
+    "displayName": "navigationItems",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "isDropdown": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.nav-sub-item"
+    }
+  }
+}

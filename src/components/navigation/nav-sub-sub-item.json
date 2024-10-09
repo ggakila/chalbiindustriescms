@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_navigation_nav_sub_sub_items",
+  "info": {
+    "displayName": "navSubSubItem"
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_navigation_nav_sub_items",
+  "info": {
+    "displayName": "navSubItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "isDropdown": {
+      "type": "boolean",
+      "default": false
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.nav-sub-sub-item"
+    }
+  }
+}
