@@ -4,7 +4,8 @@
   "info": {
     "singularName": "gun-accessory",
     "pluralName": "gun-accessories",
-    "displayName": "gunAccessories"
+    "displayName": "gunAccessories",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,14 +25,15 @@
       "type": "text"
     },
     "Thumbnail": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "specifications": {
       "type": "component",

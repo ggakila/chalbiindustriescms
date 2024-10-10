@@ -15,7 +15,8 @@
     "Category": {
       "type": "enumeration",
       "enum": [
-        "tacticalgear"
+        "tacticalgear",
+        "Tactical Gear"
       ],
       "required": true,
       "default": "tacticalgear"
@@ -39,7 +40,7 @@
     },
     "Thumbnail": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": true,
       "allowedTypes": [
         "images"
